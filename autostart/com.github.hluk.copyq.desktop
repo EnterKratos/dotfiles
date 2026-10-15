@@ -2,7 +2,7 @@
 Categories=Qt;KDE;Utility;
 Comment[en_GB]=A cut & paste history utility
 Comment=A cut & paste history utility
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=copyq com.github.hluk.copyq --start-server
+Exec=/usr/bin/copyq --start-server
 GenericName[en_GB]=Clipboard Tool
 GenericName=Clipboard Tool
 Icon=com.github.hluk.copyq
@@ -15,7 +15,6 @@ StartupNotify=false
 Terminal=false
 TerminalOptions=
 Type=Application
-X-Flatpak=com.github.hluk.copyq
 X-GNOME-Autostart-Delay=3
 X-KDE-StartupNotify=false
 X-KDE-SubstituteUID=false
