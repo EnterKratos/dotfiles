@@ -1,3 +1,6 @@
 bash/.bashrc                                    comment     .bashrc
 kde/kglobalshortcutsrc                          ini-patch   .config/kglobalshortcutsrc
 autostart/com.github.hluk.copyq.desktop         copy        .config/autostart/com.github.hluk.copyq.desktop
+scripts/lid-monitor.py                          copy        .local/bin/lid-monitor.py
+systemd/lid-monitor.service                     copy        .config/systemd/user/lid-monitor.service
+plasma-workspace/env/kwin-drm.sh                copy        .config/plasma-workspace/env/kwin-drm.sh

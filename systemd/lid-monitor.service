@@ -1,0 +1,10 @@
+[Unit]
+Description=Disable internal display on lid close when docked
+
+[Service]
+ExecStart=%h/.local/bin/lid-monitor.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
